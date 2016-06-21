@@ -15,6 +15,7 @@
 		2FDB02701D190B7700EAE4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB026E1D190B7700EAE4E7 /* LaunchScreen.storyboard */; };
 		2FDB027B1D190B7700EAE4E7 /* DLTextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB027A1D190B7700EAE4E7 /* DLTextViewDemoTests.m */; };
 		2FDB02861D190B7700EAE4E7 /* DLTextViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB02851D190B7700EAE4E7 /* DLTextViewDemoUITests.m */; };
+		2FDB02961D190B9B00EAE4E7 /* DLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB02951D190B9B00EAE4E7 /* DLTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2FDB02811D190B7700EAE4E7 /* DLTextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLTextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDB02851D190B7700EAE4E7 /* DLTextViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLTextViewDemoUITests.m; sourceTree = "<group>"; };
 		2FDB02871D190B7700EAE4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDB02941D190B9B00EAE4E7 /* DLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTextView.h; sourceTree = "<group>"; };
+		2FDB02951D190B9B00EAE4E7 /* DLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		2FDB02541D190B7700EAE4E7 = {
 			isa = PBXGroup;
 			children = (
+				2FDB02931D190B9B00EAE4E7 /* DLTextView */,
 				2FDB025F1D190B7700EAE4E7 /* DLTextViewDemo */,
 				2FDB02791D190B7700EAE4E7 /* DLTextViewDemoTests */,
 				2FDB02841D190B7700EAE4E7 /* DLTextViewDemoUITests */,
@@ -138,6 +142,15 @@
 				2FDB02871D190B7700EAE4E7 /* Info.plist */,
 			);
 			path = DLTextViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		2FDB02931D190B9B00EAE4E7 /* DLTextView */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB02941D190B9B00EAE4E7 /* DLTextView.h */,
+				2FDB02951D190B9B00EAE4E7 /* DLTextView.m */,
+			);
+			path = DLTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				2FDB02681D190B7700EAE4E7 /* ViewController.m in Sources */,
 				2FDB02651D190B7700EAE4E7 /* AppDelegate.m in Sources */,
 				2FDB02621D190B7700EAE4E7 /* main.m in Sources */,
+				2FDB02961D190B9B00EAE4E7 /* DLTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

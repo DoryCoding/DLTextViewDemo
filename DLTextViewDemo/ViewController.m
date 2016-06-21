@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "DLTextView.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    DLTextView *textView = [[DLTextView alloc]initWithFrame:CGRectMake(50, 50, 200, 160)];
+    textView.placeholder = @"写点什么吧。。。";
+    textView.placeholderColor = [UIColor redColor];
+    textView.font = [UIFont systemFontOfSize:20];
+    [self.view addSubview:textView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
